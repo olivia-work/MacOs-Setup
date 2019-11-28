@@ -18,8 +18,9 @@ echo "Installing brew cask..."
 brew tap phinze/homebrew-cask
 
 #install basic apps
-
+echo "Installing basic apps..."
 brew cask install slack
 brew cask install 1password
 brew cask install google-chrome
 brew cask install firefox
+brew cask install iterm2
