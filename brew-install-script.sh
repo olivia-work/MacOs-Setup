@@ -3,8 +3,8 @@
 # Check that Homebrew is installed and install if not
 if test ! $(which brew)
 then
-  echo "  Installing Homebrew for you."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > install.sh
+  echo "Installing Homebrew for you."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Update any existing homebrew recipes
