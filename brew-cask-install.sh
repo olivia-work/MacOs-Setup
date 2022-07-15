@@ -29,4 +29,4 @@ CASKS=(
     zoom
 )
 echo "Installing cask apps..."
-brew install --${CASKS[@]}
+brew install ${CASKS[@]} --cask
